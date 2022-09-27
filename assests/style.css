@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+:root {
+    background-color: rgb(252, 245, 235);
+    
+}
+body {
+   
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+.porfile img {
+    display: flex;
+    margin: 20px auto;
+    border-radius: 100px;
+   
+    
+}
+
+ nav {
+    color: #67de06;
+    font-weight: bold;
+    text-decoration: none;
+    
+ }
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    background-color: royalblue;
+    
+  }
+
+
+
+ .text-center {
+    text-align: center;
+ }
+
+ .boxes {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    background: fixed;
+   
+  }
+  
+  
+  
+  .box {
+    align-items: center;
+    padding: 60px;
+    color: rgb(0, 0, 0);
+     background: rgb(255, 255, 255);
+    border-style:dashed;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 90px;
+    flex: 0 0 300px;
+    margin: 70px;
+  
+  }
+ .cntct {
+  height: 50vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .box header{
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -17px;
+    border-color: white;
+    border-width: 1px;
+    width: 90%;
+    background-color: royalblue;
+    text-align: center;
+    font-size: 40px;
+  }
+
+
+  .header {
+    text-align: center;
+  
+  }
+
+  figure header {
+      text-align: center;
+  }
+  
+ 
+  .wok {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      
+         
+   
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
+
+
+
+  
