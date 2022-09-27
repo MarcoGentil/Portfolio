@@ -24,14 +24,30 @@ body {
     
 }
 
+.porfile {
+  font-size: 50px;
+  background-color: rgb(71, 172, 249);
+
+}
+
+h2 {
+font-size: 35px;
+
+
+}
+
+
  nav {
+    
     color: #67de06;
     font-weight: bold;
     text-decoration: none;
     
  }
 nav ul {
+    font-size: 35px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     min-width: 300px;
     background-color: royalblue;
@@ -45,12 +61,14 @@ nav ul {
  }
 
  .boxes {
-    padding: 10px;
+    
     margin: 5px;
     display: flex;
     flex-wrap:wrap;
     box-sizing:border-box;
     background: fixed;
+    justify-content: center;
+     align-items: center;
    
   }
   
@@ -70,6 +88,27 @@ nav ul {
     margin: 70px;
   
   }
+
+  .Resume h1 {
+
+    font-size: 35px;
+
+  }
+
+
+  .Resume p {
+
+     font-size: 20px;
+
+  }
+
+  header {
+    font-size: 35px;
+  }
+
+
+
+
  .cntct {
   height: 50vh;
      display: flex;
@@ -105,12 +144,23 @@ nav ul {
  
   .wok {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      border-radius: 30px;
-      
-         
+        
    
+  }
+
+
+
+  .Pog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   width: 90%;
   }
 
   
